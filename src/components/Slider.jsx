@@ -5,7 +5,8 @@ function Slider() {
     const { setModalActive, number, setNumber } = useContext(Context)
     let windowWidth = window.innerWidth
     const mainPhoto = {
-        backgroundImage: `url(../images/image-product-${number}.jpg)`,
+        backgroundImage: `url(iamsamie.github.io/product-page/build/images/image-product-${number}.jpg)`,
+        // backgroundImage: `url(image-product-${number}.jpg)`,
     }
     const handleOne = () => {
         setNumber(1)
